@@ -153,7 +153,7 @@
 - (void)_init:(CKCalendarStartDay)firstDay {
     self.calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSGregorianCalendar];
     [self.calendar setLocale:[NSLocale currentLocale]];
-
+    self.backgroundColor = [UIColor redColor];
     self.cellWidth = DEFAULT_CELL_WIDTH;
 
     self.dateFormatter = [[NSDateFormatter alloc] init];

@@ -52,6 +52,7 @@ typedef enum {
 
 - (void)setMonthButtonColor:(UIColor *)color;
 - (void)setInnerBorderColor:(UIColor *)color;
+- (void)setDateBorderColor:(UIColor *)color;
 - (void)setDayOfWeekBottomColor:(UIColor *)bottomColor topColor:(UIColor *)topColor;
 
 - (void)selectDate:(NSDate *)date makeVisible:(BOOL)visible;
